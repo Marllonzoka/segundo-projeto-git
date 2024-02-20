@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Notícias</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .noticias {
+            background-color: #f4f4f4;
+        }
+        .entretenimento {
+            background-color: #ffd700;
+        }
+        .tecnologia {
+            background-color: #00ced1;
+        }
+        .noticias h2, .entretenimento h2, .tecnologia h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portal de Notícias</h1>
+    </header>
+    <nav>
+        <a href="#noticias">Notícias</a>
+        <a href="#entretenimento">Entretenimento</a>
+        <a href="#tecnologia">Tecnologia</a>
+    </nav>
+    <section id="noticias" class="noticias">
+        <h2>Notícias</h2>
+        <p>Aqui estão as últimas notícias.</p>
+    </section>
+    <section id="entretenimento" class="entretenimento">
+        <h2>Entretenimento</h2>
+        <p>Aqui estão as últimas notícias de entretenimento.</p>
+    </section>
+    <section id="tecnologia" class="tecnologia">
+        <h2>Tecnologia</h2>
+        <p>Aqui estão as últimas notícias de tecnologia.</p>
+    </section>
+</body>
+</html>
